@@ -1,0 +1,18 @@
+.title {
+  font-size: var(--font-large);
+  font-weight: 700;
+  color: var(--color-dark);
+  text-shadow: 1px 1px 2px #9e9e9e;
+
+  text-align: center;
+
+  position: relative;
+}
+
+.top {
+  margin-top: 50px;
+}
+
+.bottom {
+  margin-bottom: 50px;
+}

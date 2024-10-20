@@ -1,0 +1,48 @@
+.form {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+
+  margin-bottom: 40px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.select {
+  width: 100%;
+  height: 50px;
+
+  border-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: var(--color-gray);
+  border-radius: 8px;
+
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  letter-spacing: 0.06em;
+  font-weight: 200;
+
+  transition: all 0.5s ease-in-out;
+
+  padding-right: 40px;
+  color: #fff;
+
+  cursor: pointer;
+}
+.select option:first-of-type {
+  color: var(--color-light);
+}
